@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="flights.css">
+    <title>About Us</title>
+</head>
+<body>
+    <div class="about-main">
+        <img class="about-bg" src="Assets/about-bg.jpg" alt="">
+        <nav id="navbar">
+            <ul class="nav-items">
+                <li><a class="nav-item" href="index.html">Home</a></li>
+                <li><a class="nav-item" href="guides.html">Guides</a></li>
+                <li><a class="nav-item" href="flights.html">Flights</a></li>
+                <li class="active-item"><a class="nav-item" href="about.html">About</a></li>
+            </ul>
+            <button class="btn-contact"><a href="#">Contact Us</a></button>      
+        </nav>
+        <div class="burger" id="burger-icon" onclick="toggleNavigation()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="about-desc">
+            <h1>Enjoy Your Vacation With Us</h1>
+            <p>If you want to know more about our agency, don't mind contacting us.</p>
+            <div class="about-email">
+                <input type="email" class="email-input" placeholder="Enter your email">
+                <button class="btn-send-email" disabled>Send Email</button>
+            </div>
+        </div>
+    </div>
+    <section class="about-us">
+        <img class="about-pic" src="Assets/about-us.jpg" alt="">
+        <div class="about-info">
+            <h3>ABOUT US</h3>
+            <h2>Welcome to <span style="color: #f4c46d;">TRAVEL-AGENCY-X</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in possimus cumque dolores culpa .</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, molestiae illo? Perspiciatis, sapiente necessitatibus! Unde assumenda accusantium excepturi .</p>
+            <div class="about-lists">
+                <ul>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                </ul>
+                <ul>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                    <li><img class="arrow-icon" src="Assets/arrow.png" alt="">Lorem, ipsum dolor.</li>
+                </ul>
+            </div>
+            <button class="btn-about">
+                <a href="#">See More About Us</a>
+            </button>
+        </div>
+    </section>
+    <section class="services">
+        <h1 class="about-title">Our <span style="color: #f4c46d;">Services :</span> </h1>
+        <div class="services-cards">
+            <div class="service-card">
+                <img src="Assets/world-icon.png" alt="">
+                <h3>WorldWide Tours</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?</p>
+            </div>
+            <div class="service-card">
+                <img src="Assets/hotel.png" alt="">
+                <h3>Hotel Reservations</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?</p>
+            </div>
+            <div class="service-card">
+                <img src="Assets/user.png" style="width: 100px;height: 100px;" alt="">
+                <h3>Travel Guides</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?</p>
+            </div>
+            <div class="service-card">
+                <img src="Assets/management.png" alt="">
+                <h3>Events Management</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?</p>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <h1 class="about-title">Our <span style="color: #f4c46d;">Partners :</span> </h1>
+        <div class="partner-cards">
+            <div id="card1" class="partner-card card1">
+                <img src="Assets/Partners1.jpg" alt="">
+                <div class="partner-info">
+                    <h3>DUBAI AND UAE</h3>
+                    <h2 class="partner-title">Discover Dubai</h2>
+                    <hr class="partner-divider">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, blanditiis.</p>
+                </div>
+            </div>
+            <div class="partner-classes">
+                <div class="classes-part1">
+                    <div class="partner-card card2">
+                        <img class="partner-pics" src="Assets/first-class.jpg" alt="">
+                        <div class="classes-info">
+                            <h3>DUBAI AND UAE</h3>
+                            <h2 class="partner-title">First Class</h2>
+                            <hr class="partner-divider">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="partner-card card3">
+                        <img class="partner-pics" src="Assets/business-class.jpg" alt="">
+                        <div class="classes-info">
+                            <h3>DUBAI AND UAE</h3>
+                            <h2 class="partner-title">Business Man Class</h2>
+                            <hr class="partner-divider">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="classes-part2">
+                    <div class="partner-card card4">
+                        <img class="partner-pics" src="Assets/premium-economy.jpg" alt="">
+                        <div class="classes-info">
+                            <h3>DUBAI AND UAE</h3>
+                            <h2 class="partner-title">Premium Economy</h2>
+                            <hr class="partner-divider">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="partner-card card5">
+                        <img class="partner-pics" src="Assets/Economy.jpg" alt="">
+                        <div class="classes-info">
+                            <h3>DUBAI AND UAE</h3>
+                            <h2 class="partner-title">Economy Class</h2>
+                            <hr class="partner-divider">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footerTitle">
+            <h1>My Log Travels</h1>
+        </div>
+        <div class="footer-links">
+           <h2>Quick links</h2>
+           <div class="quick-links">
+                <div class="footer-col">     
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Travel Logs</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Travels</a>
+                    <a href="#">Promotions</a>
+                    <a href="#">Routes</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Recommendations</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Blogs</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Mission statetment</a>
+                    <a href="#">The team</a>
+                    <a href="#">Contact us</a>
+                </div>
+           </div>
+            
+        </div>
+        
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>

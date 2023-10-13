@@ -1,0 +1,312 @@
+@media only screen and (max-width: 768px)  {
+    nav{
+       opacity: 0;
+       flex-direction: column;
+       height: 40vh;
+       background-color: #f4c46d ;
+       margin-top: 4rem;
+       width: 80%;
+       margin-left: 2rem;
+       text-align: center;
+       justify-content: space-evenly;
+       border-radius: 1rem;
+       z-index: 5;
+    }
+    .burger{
+        opacity: 1;
+        position: absolute;
+        top: 2rem;
+    }
+
+    .btn-contact:hover{
+        background-color: #C08261;
+        color: white;
+        transition: 0.8s ease;
+    }
+
+    .nav-items{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 6rem;
+        gap: 0.5rem;
+        text-decoration: underline;
+    }
+    .btn-contact{
+        padding: 0.7rem 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .home-Intro{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hello-msg{
+        position: absolute;
+        top: 30vh;
+        z-index: -1;
+        width: 80%;
+    }
+    .hello-msg h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    
+    .btn-homeIntro{
+        margin-left: 5.2rem;
+        margin-top: 2rem;
+    }
+
+    #home-drawing{
+        width: 200px;
+        height: 200px;
+        top: 80vh;
+    }
+    .home-pic{
+        display: none;
+    }
+
+    #home-drawing3, #home-drawing4{
+        display: none;
+    }
+
+    .memories{
+        padding: 2rem ;
+        align-items: center;
+    }
+
+    .memories h1{
+        font-size: 2rem;
+    }
+
+    .memories button{
+        padding: 0.7rem 1.5rem;
+        margin-right: 1rem;
+        
+    }
+
+    .guides{
+        flex-direction: column;
+        margin-top: 20rem;
+        width: 100%;
+    }
+   
+    .guide{
+        width: 90%;
+        margin-left: 10%;
+        margin-bottom: 1.5rem;
+    }
+
+    .testimonials{
+        width: 100%;
+    }
+
+    .testimonials h1{
+        font-size: 2.25rem;
+    }
+    .cards{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .stars{
+        margin-left: 5rem;
+    }
+
+    #profile{
+        margin-left: 7rem;
+    }
+    
+    .contact-form{
+        flex-direction: column-reverse;
+        
+    }
+
+    .contact-form svg{
+        width: 80%;
+        margin-left: 2.5rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 80%;
+    }
+
+    .form-item{
+        width: 100%;
+    }
+
+    .contact-form form h1{
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    #btn-submit{
+        margin-left: 5.5rem;
+        width: 7rem;
+       
+    }
+    
+    .section-title{
+        font-size: 2.25rem;
+    }
+
+    /* Guides */
+
+    .guides-background{
+       top: 0;
+       height: 55vh;
+    }
+
+    .guides-home h1{
+        position: absolute;
+        top: 18vh;
+        margin-right: 10%;
+        z-index: -1;
+    }
+
+    .guide-cards{
+        flex-direction: column;
+    }
+    
+    .guide-card{
+        width: 100%; 
+        margin-bottom: 1rem;
+    }
+
+        
+    .guide-card img{
+        width: 90%; 
+        margin-left: 5%;
+    }
+
+    .top-destinations{
+        margin-top: -5rem;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item9,.grid-item3{
+        height: 300px;
+    }
+
+
+    /* Flights */
+    
+    .flights-bg{
+        top: 0;
+        height: 60vh;
+    }
+
+    .flights-description  {
+        position: absolute;
+        top: 2%;
+        width: 100%;
+        text-align: center;
+        right: 0.8%;
+        z-index: -1;
+    }
+
+    .book-flight{
+        width: 80%;
+        margin-top: -3rem;
+        z-index: -1;
+    }
+
+    .citys{
+        flex-direction: column;
+    }
+    .city{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .city-desc h2{
+        margin: 0.3rem 0rem;
+    }
+    .about-bg{
+        top: 0;
+        height: 60vh;
+     }
+ 
+     .about-desc{
+         position: absolute;
+         top: 0vh;
+         left: 1.5%;
+         z-index: -1;
+     }
+
+     .about-email{
+        width: 100%;
+        margin-left: 1.5%;
+     }
+
+     .about-us{
+        flex-direction: column;
+     }
+     
+     .about-pic{
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+     .about-info{
+        width: 100%;
+    }
+
+    .about-info p{
+        margin-bottom: 0.7rem;
+    }
+
+    .btn-about{
+        margin-left: 22.5%;
+        
+    }
+    .services-cards{
+        flex-direction: column;
+    }
+
+    .service-card{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .service-card p{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .about-title{
+        margin-top: -2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .partner-cards,.classes-part1,.classes-part2{
+        display: flex;
+        flex-direction: column;
+    }
+    .card2,.card3,.card4,.card5{
+        height: 300px;
+    }
+    
+    footer {
+        flex-direction: column;
+        padding: 4rem 2rem; 
+    }
+
+    .footer-links {
+        padding-left: -1rem; 
+    }
+
+    .footer-col {
+        margin-right: 2rem; 
+    }
+
+   .footerTitle{
+    margin-left: 5rem;
+   }
+}

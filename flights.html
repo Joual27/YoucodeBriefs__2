@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="flights.css">
+    <title>Flights</title>
+</head>
+<body>
+    <main class="flights-home">
+        <img class="flights-bg" src="Assets/flightsBG.jpg" alt="">
+        <nav id="navbar">
+            <ul class="nav-items">
+                <li><a class="nav-item" href="index.html">Home</a></li>
+                <li><a class="nav-item" href="guides.html">Guides</a></li>
+                <li  class="active-item"><a class="nav-item" href="flights.html">Flights</a></li>
+                <li><a class="nav-item" href="about.html">About</a></li>
+            </ul>
+            <button class="btn-contact"><a href="#">Contact Us</a></button>      
+        </nav>
+        <div class="burger" id="burger-icon" onclick="toggleNavigation()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="flights-content">
+            <div class="flights-description">
+                <h1>Plan Your Trip To Anywhere In The World ?</h1>
+                <p>Our agency offers luxury trips anywhere in the world .</p>
+            </div>
+            <form  class="book-flight">
+                <div class="top-book"></div>
+                <h2>Book Your Trip Now !</h2>
+                <label for="Name">Full Name :</label>
+                <input class="book-item" type="text" name="Name">
+                <label for="Departure">Departure :</label>
+                <select class="book-item" name="Departure" id="Departure">
+                    <option value="select item">Select Your Departure</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="St-Petersbourgh">St-Petersbourgh</option>
+                    <option value="Budapest">Budapest</option>
+                    <option value="London">London</option>
+                </select>
+                <label for="Destination">Destination :</label>
+                <select class="book-item" name="Destination" id="Destination">
+                    <option value="select item">Select Your Destination</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="St-Petersbourgh">St-Petersbourgh</option>
+                    <option value="Budapest">Budapest</option>
+                    <option value="London">London</option>
+                </select>
+                <label for="Date">Departure Date :</label>
+                <input class="book-item" type="date" name="Date">
+                <input id="btn-submitFlight" type="button" value="Search">
+            </form>
+        </div>
+    </main>
+    <section class="best-offers">
+        <h2 class="best-offers-title">Best Offers From <span style="color: #FFCC70;">Your Location :</span> </h2>
+        <div class="best-offers-container">
+            <div class="citys">
+                <div class="city">
+                    <img src="Assets/Bali.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">INDONESIA</h3>
+                        <h2 class="city-name">Bali</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="Assets/Bangkok.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">THAILAND</h3>
+                        <h2 class="city-name">Bangkok</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="Assets/Dubai.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">UAE</h3>
+                        <h2 class="city-name">Dubai</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="citys">
+                <div class="city">
+                    <img src="Assets/Istanbul.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">TURKEY</h3>
+                        <h2 class="city-name">Istanbul</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="Assets/Kuala Lampur.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">MALISYA</h3>
+                        <h2 class="city-name">Kuala Lampur</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="Assets/Montreal.jpg" alt="">
+                    <div class="city-desc">
+                        <h3 style="color: gray; font-size: 1rem;">CANADA</h3>
+                        <h2 class="city-name">Montreal</h2>
+                        <p >TWO-WAY booking available in economy class until 29 november 2023 .</p>
+                        <h2 class="flight-price">Strating 6,735 MAD</h2>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="footerTitle">
+            <h1>My Log Travels</h1>
+        </div>
+        <div class="footer-links">
+           <h2>Quick links</h2>
+           <div class="quick-links">
+                <div class="footer-col">     
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Travel Logs</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Travels</a>
+                    <a href="#">Promotions</a>
+                    <a href="#">Routes</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Recommendations</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Blogs</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Mission statetment</a>
+                    <a href="#">The team</a>
+                    <a href="#">Contact us</a>
+                </div>
+           </div>
+            
+        </div>
+        
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
